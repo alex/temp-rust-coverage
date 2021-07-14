@@ -1,4 +1,4 @@
-#[mac::pyfunction]
+#[pyo3::prelude::pyfunction]
 pub fn foo(
     arg0: u8,
     arg1: u8,
